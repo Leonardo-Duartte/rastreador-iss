@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f4f4f4;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centraliza o conteúdo da página */
+}
+
+h1 {
+    color: #0056b3; /* Azul escuro para o título */
+    text-align: center;
+}
+
+#issMap {
+    height: 500px; /* Altura do mapa */
+    width: 80%;    /* Largura do mapa, responsiva */
+    max-width: 900px; /* Largura máxima */
+    margin-top: 20px;
+    border: 1px solid #ccc; /* Borda sutil */
+    box-shadow: 0 0 10px rgba(0,0,0,0.1); /* Sombra leve */
+}
+
+#info {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #fff; /* Fundo branco para a caixa de informações */
+    border-radius: 8px; /* Bordas arredondadas */
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    width: 80%;
+    max-width: 900px;
+}
+
+#info p {
+    margin: 8px 0;
+    font-size: 1.1em;
+}
+
+#info span {
+    font-weight: bold;
+    color: #007bff; /* Azul para os valores dos dados */
+}
